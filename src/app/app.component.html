@@ -1,0 +1,128 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<!--LIMPAR O CSS INLINE-->
+
+<div>
+  <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <button class="nav-link active" style="color: #C19630; 
+             background-color: #000000;
+             border-top-color: #000000;
+             border-right-color: #808080;
+             border-bottom-color: #000000;
+             border-left-color: #000000;
+             font-weight: bold;
+             width: 100%;">
+        Agenda</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link active" style="color: #C19630; 
+               background-color: #000000;
+               border-top-color: #000000;
+               border-right-color: #808080;
+               border-bottom-color: #000000;
+               border-left-color: #000000;
+               font-weight: bold;
+               width: 100%;">
+        Fotos</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link active" style="color: #C19630; 
+               background-color: #000000;
+               border-top-color: #000000;
+               border-right-color: #000000;
+               border-bottom-color: #000000;
+               border-left-color: #000000;
+               font-weight: bold;
+               width: 100%;">
+        Contatos</button>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5">
+      <img width="350" alt="Ensaio3" src="assets/Ensaio4.jpeg">
+    </div>
+    <div class="col-lg-5">
+      <img width="700" style="margin: 20% auto;" alt="Logo" src="assets/Logo.jpeg">
+    </div>
+  </div>
+</div>
+
+<!--ARRUMAR O CAROUSEL, AJEITAR O TAMANHO DAS IMAGENS-->
+
+<div style="background-color: white;">
+  <h3 style="margin-left: 5%">Fotos</h3>
+  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/Show1.jpeg" class="d-block w-100" alt="Show1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Show2.jpeg" class="d-block w-100" alt="Show2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Show3.jpeg" class="d-block w-100" alt="Show3">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!--AJEITAR O CARDS PARA FICAR UM DO LADO DO OUTRO-->
+
+<div>
+  <h3 style="margin-left: 5%">Agenda</h3>
+  <div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/EspetariaEX.jpeg" class="card-img-top" alt="...">
+      <h4 style="text-align: center;">Espetaria Alpha</h4>
+      <div class="card-body">
+          <p class="card-text"> Rua Alguma coisa, Sarzedo
+              <br>Dia 05/04 às 19h</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/EspetariaEX.jpeg" class="card-img-top" alt="...">
+        <h4 style="text-align: center;">Espetaria Alpha</h4>
+      <div class="card-body">
+        <p class="card-text"> Rua Alguma coisa, Sarzedo
+          <br>Dia 06/04 às 19h</p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="assets/EspetariaEX.jpeg" class="card-img-top" alt="...">
+      <h4 style="text-align: center;">Espetaria Alpha</h4>
+      <div class="card-body">
+          <p class="card-text"> Rua Alguma coisa, Sarzedo
+              <br>Dia 07/04 às 19h</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--COLOCAR OS ICONES RESPECTIVOS DAS REDES SOCIAIS,
+    PESQUISAR COMO OFERECER DIREITOS DOS ICONES
+-->
+
+<div style="background-color:white">  
+    <h3 style="margin-left: 5%">Contatos</h3>
+    <a href="https://www.youtube.com/channel/UCjTsFuf635sBVRB7co0WJGw">Youtube</a> <br>
+    <a href="https://www.instagram.com/zeotavioofc/">Instagram</a>
+    <p>Email: joseotavioofc@gmail.com</p>
+</div>
+
+<router-outlet></router-outlet>
